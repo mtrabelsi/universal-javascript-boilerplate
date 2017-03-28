@@ -5,7 +5,7 @@ process.traceDeprecation = true
 module.exports = {
   entry : './src/app.js',
   output : {
-    path : './dist',
+    path : './src/dist',
     filename : 'app.bundle.js'
   },
   plugins : [new HtmlWebpackPlugin({
