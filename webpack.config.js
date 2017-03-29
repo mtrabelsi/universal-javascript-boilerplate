@@ -8,10 +8,11 @@ module.exports = {
     path : './dist',
     filename : 'app.bundle.js'
   },
-  plugins : [/*new HtmlWebpackPlugin({
+  plugins : [/* new HtmlWebpackPlugin({
     title : 'title from webpack',
     hash : true,
-    template :'./config/template.html'
+    template : './config/index.ejs',
+    filename : 'index.ejs'
   }), */ new ExtractTextWebpackPlugin('app.bundle.css')],
   module : {
     rules : [{
