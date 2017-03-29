@@ -1,7 +1,7 @@
 var HtmlWebpackPlugin =  require('html-webpack-plugin')
 var ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
-process.traceDeprecation = true
-
+// uncomment the next line to show more errors
+//process.traceDeprecation = true
 module.exports = {
   entry : './src/app.js',
   output : {
