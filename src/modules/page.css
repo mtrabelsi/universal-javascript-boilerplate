@@ -1,0 +1,11 @@
+div.page {
+  height: 15px;
+  padding: 25%;
+  border-radius: 25px;
+}
+div.page1 {
+  background: #d5e6bd;
+}
+div.page2 {
+  background: #85ad4c;
+}
