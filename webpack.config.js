@@ -5,14 +5,14 @@ process.traceDeprecation = true
 module.exports = {
   entry : './src/app.js',
   output : {
-    path : './src/dist',
+    path : './dist',
     filename : 'app.bundle.js'
   },
-  plugins : [new HtmlWebpackPlugin({
+  plugins : [/*new HtmlWebpackPlugin({
     title : 'title from webpack',
     hash : true,
     template :'./config/template.html'
-  }), new ExtractTextWebpackPlugin('app.bundle.css')],
+  }), */ new ExtractTextWebpackPlugin('app.bundle.css')],
   module : {
     rules : [{
       test : /\.css$/,

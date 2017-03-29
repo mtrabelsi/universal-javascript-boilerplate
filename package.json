@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch & ./node_modules/babel-cli/bin/babel-node.js ./src/server.js",
+    "dev": "webpack -d --watch & ./node_modules/babel-cli/bin/babel-node.js ./server.js",
     "prod": "webpack -p --watch"
   },
   "author": "Marwen Trabelsi <marwen.projob@gmail.com> (http://www.radiofm.tn)",
