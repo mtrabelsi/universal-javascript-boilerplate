@@ -1,5 +1,4 @@
 import React from 'react'
-import './page.css'
 
 export default React.createClass({
   render() {

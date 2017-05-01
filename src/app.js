@@ -1,7 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
 import { Router, Route , browserHistory} from 'react-router'
-import './app.css'
 
 import Nav from './modules/navPage'
 import Page1 from './modules/page1'
