@@ -7,6 +7,9 @@ import Page1 from './modules/page1'
 import Page2 from './modules/page2'
 import NotFound from './modules/notfound'
 
+if(typeof window === "object") {
+  require('./app.css')
+}
 
 render((
   <Router history={browserHistory}>

@@ -13,7 +13,8 @@ module.exports = {
     hash : true,
     template : './config/index.ejs',
     filename : 'index.ejs'
-  }), */ new ExtractTextWebpackPlugin('app.bundle.css')],
+  }), */
+  new ExtractTextWebpackPlugin('app.bundle.css')],
   module : {
     rules : [{
       test : /\.css$/,
