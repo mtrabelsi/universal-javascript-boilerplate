@@ -6,6 +6,8 @@ if(typeof window === "object") {
 
 export default React.createClass({
   render() {
-    return <div className="page page2">Page 2 content</div>
+    return (<div className="page page2">Page 2 content
+      {(typeof window === "object")  && <img src={require('./image2.jpg')} />}
+    </div>)
   }
 })
