@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Simple but complete boilerplate for universal javascript
 
-You can use the [editor on GitHub](https://github.com/mtrabelsi/universal-javascript-boilerplate/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Background
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I never been satisfied from using project like (https://github.com/redfin/react-server
+) or (https://github.com/zeit/next.js/), here why :
 
-### Markdown
+1. If there is a bug you need to wait for them to fix it - or if you really have time then make a PR and good luck with that :)
+2. Lack of features: things like CSS module and import image within react module does not exist ( or at least they are buggy )
+3. Strange and non natural paradigm introduced in your project, I believe the aim of software is to make life easier and more natural way
+4. You don't have much control - the framework will do the magic for you, this also refers to the **1**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Features
 
-```markdown
-Syntax highlighted code block
+- Universal Javascript ( server and front code sharing / rendering )
+- Support for **CSS module** and **Import Images** into your react components
+- You have much control over your configuration, simpler upgrade!
+- No junky code, code really simple and can be easily incorporated into your project
 
-# Header 1
-## Header 2
-### Header 3
+### Suggestion and improvement
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mtrabelsi/universal-javascript-boilerplate/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any question or spot a bug, please create an issue I'll usually respond on few hours.
