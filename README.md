@@ -3,7 +3,7 @@
 ### Background
 
 I never been satisfied from using project like (https://github.com/redfin/react-server
-) or (https://github.com/zeit/next.js/), here why :
+) or (https://github.com/zeit/next.js/), here's why :
 
 1. If there is a bug you need to wait for them to fix it - or if you really have time then make a PR and good luck with that :)
 2. Lack of features: things like CSS module and import image within react module does not exist ( or at least they are buggy )
