@@ -1,7 +1,7 @@
 import React from 'react'
 
 if(typeof window === "object") {
-  require('./../../page.css')
+  require('./page.css')
 }
 
 export default React.createClass({
